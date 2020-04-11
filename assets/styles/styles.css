@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 #about {
 		margin-top: 10em;
 		border: 1px solid #eee;
-		background-color: white;
+		background-color: #5e6361;
 		padding-bottom: 1em;
 }
 
@@ -138,6 +138,14 @@ h1, h2, h3, h4, h5, h6 {
 	cursor: pointer;
 }
 
+#social_media i {
+	margin-top: 2.5rem;
+    font-size: 2rem;
+    color: cadetblue;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 /*** Experience ***/
 #experience {
 	background-color: #4c6d86;
@@ -156,17 +164,26 @@ h1, h2, h3, h4, h5, h6 {
 
 #experience i {
 	color: rgb(255, 138, 89);
-	font-size: 4em;
+	font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 #experience h3 {
 	color: #fff;
 }
 
+
 .experience-topics p {
 	color: #ACAEB2;
 	font-family: "Maven pro", sans-serif;
 	/*font-weight: 500;*/
+}
+
+.experience-topics ul {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .experience-topics ul li {
