@@ -87,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #about .details {
 		margin-top: -2em;
+		height: 300px;
 }
 
 #about h2 {
@@ -98,7 +99,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #about span {
 		font-weight: 300;
-		font-size: 1.5rem;
+		font-size: 2rem;
+		font-style: italic;
+		font-family: cursive;
 		color: #bec7cc;
 		font-weight: 600;
 		background-color: #1c1e1f !important;
@@ -185,6 +188,12 @@ h1, h2, h3, h4, h5, h6 {
 #experience h3 {
 	color: #fff;
 	margin-bottom: 2rem;
+}
+
+.experience-topics{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -356,7 +365,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 50%;
 	border: 3px solid rgba(255, 103, 68, 0.91);
     background-size: cover;
-    margin-top: -100px;
-    margin-bottom: 40px;
+    margin-top: -125px;
+    margin-bottom: 65px;
 
 }
