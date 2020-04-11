@@ -94,3 +94,21 @@ const Portfolio = function() {
 
 Portfolio.displayWordCloud();
 Portfolio.typeAnimation();
+
+
+/********   creating the pdf file download ******* */
+
+function downloadfile(){
+	console.log("download");
+	var element = document.createElement('a');
+  element.setAttribute('href', './assets/Dinith_Jayabodhi_CV.pdf');
+  element.setAttribute('download', 'Dinith_Jayabodhi_CV.pdf');
+  element.setAttribute('target','_blank');
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
