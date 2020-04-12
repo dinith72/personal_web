@@ -64,16 +64,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** thin bar ***/
 
-.thin-bar {
+/* .thin-bar {
 		border-bottom: 5px solid #F33F12;
-}
+} */
 
 
 /*** About Section ***/
 
 #about {
-		margin-top: 10em;
-		/* border: 1px solid #eee; */
+		/* margin-top: 10em; */
+		
 		/* background-color: #5e6361; */
 		padding-bottom: 1em;
 		background-color: #1c1e1f; 
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #about .details {
 		margin-top: -2em;
-		height: 300px;
+		
 }
 
 #about h2 {
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 		font-family: cursive;
 		color: #bec7cc;
 		font-weight: 600;
-		background-color: #1c1e1f !important;
+		/* background-color: #1c1e1f !important; */
 }
 
 #about h5 {
@@ -117,6 +117,17 @@ h1, h2, h3, h4, h5, h6 {
 		color: #646464;
 		font-family: "roboto";
 		font-weight: 300;
+}
+.profile-photo {
+	width: 175px;
+    height: 175px;
+    margin: 0 auto;
+	border-radius: 50%;
+	/* border: 3px solid rgba(255, 103, 68, 0.91); */
+    background-size: cover;
+    margin-top: 25px;
+    margin-bottom: 65px;
+
 }
 
 .cta .cta-button {
@@ -165,6 +176,13 @@ h1, h2, h3, h4, h5, h6 {
 #social_media i:hover{
 	cursor: pointer;
     transform: scale(1.5);
+}
+@media only screen and (max-width: 500px) {
+	#about .details {
+		margin-top: -2em;
+		height: 300px;
+	}
+
 }
 
 /*** Experience ***/
@@ -225,6 +243,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*** work ***/
+
+
+
+
 #work {
 	padding: 6em 4em 3em;
 	background-color: #fff;
@@ -247,6 +269,8 @@ h1, h2, h3, h4, h5, h6 {
 #work .work-row {
 	margin-bottom: 5.5em;
 }
+
+  
 
 #work img{
 	border-radius: 5%;
@@ -286,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .details a, .details a:link, .details a:active{
 		color: rgba(255, 103, 68, 0.91);
-		border: 2px solid rgba(255, 103, 68, 0.91) !important;
+		/* border: 2px solid rgba(255, 103, 68, 0.91) !important; */
 		background-color: #fff;
 }
 
@@ -294,6 +318,15 @@ h1, h2, h3, h4, h5, h6 {
 		/*box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);*/
 		background-color: rgba(255, 103, 68, 0.91) !important;
 		color: #fff;
+}
+
+@media only screen and (min-width: 600px) {
+	#work .work-row {
+		margin-bottom: 5.5em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 }
 
 /*** teaching ***/
@@ -376,14 +409,3 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.profile-photo {
-	width: 175px;
-    height: 175px;
-    margin: 0 auto;
-	border-radius: 50%;
-	border: 3px solid rgba(255, 103, 68, 0.91);
-    background-size: cover;
-    margin-top: -125px;
-    margin-bottom: 65px;
-
-}
