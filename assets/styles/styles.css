@@ -248,6 +248,15 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 5.5em;
 }
 
+#work img{
+	border-radius: 5%;
+    margin-bottom: 1rem;
+}
+
+.work-row  .workImage{
+	display: flex;
+}
+
 .details h3 {
 	color: #738182;
 	text-transform: uppercase;
