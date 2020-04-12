@@ -61,7 +61,7 @@ const Portfolio = function() {
 		
 			Typed.new("#writing-text", {
 				strings: [
-					"am a Full-Stack Web Developer.", "love to code.", "create impact through developing.", "solve problems."
+					"am a Full-Stack Web Developer.", "love to code.", "creates an impact.", "solve problems."
 				],
 				// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 				stringsElement: null,

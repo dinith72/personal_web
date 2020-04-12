@@ -101,7 +101,8 @@ h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		font-size: 2rem;
 		font-style: italic;
-		font-family: cursive;
+		font-family: 'Gochi Hand';
+		letter-spacing: 0.3rem;
 		color: #bec7cc;
 		font-weight: 600;
 		/* background-color: #1c1e1f !important; */
