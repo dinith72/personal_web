@@ -61,7 +61,7 @@ const Portfolio = function() {
 		
 			Typed.new("#writing-text", {
 				strings: [
-					"am a Full-Stack Web Developer.", "love to code.", "creates an impact.", "solve problems."
+					"am a Full-Stack Web Developer.", "love to code.", "create an impact.", "solve problems."
 				],
 				// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 				stringsElement: null,
@@ -102,7 +102,7 @@ function downloadfile(){
 	console.log("download");
 	var element = document.createElement('a');
   element.setAttribute('href', './assets/Dinith_Jayabodhi_CV.pdf');
-  element.setAttribute('download', 'Dinith_Jayabodhi_CV.pdf');
+//   element.setAttribute('download', 'Dinith_Jayabodhi_CV.pdf');
   element.setAttribute('target','_blank');
 
   element.style.display = 'none';
