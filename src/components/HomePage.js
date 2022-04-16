@@ -1,6 +1,7 @@
+
 import React from "react";
-import { Col, Container } from "react-bootstrap";
-import imgPotrait from '../assets/me.png'
+import { Col, Container, Row, Button } from "react-bootstrap";
+import imgPotrait from "../assets/dinith.png";
 
 import "./HomePage.scss";
 
@@ -22,17 +23,21 @@ export function HomePage(props) {
 
   return (
     <Container id="homePg">
-      
-        <Col lg="5" md='5' className="animeTxt">
+      <Col lg="5" md="5" className="animeTxt">
+        <Row className="text-row">
           <p> Hola , </p>
           <p> I am Dinith Jayabodhi</p>
-
+        </Row>
+        <Row className="text-row">
           <p className="jobs"> {TEXTS[index % TEXTS.length]} </p>
-        </Col>
-        <Col lg="5"  md='5' className="profPic">
+        </Row>
+        <Row className="text-row">
+         <Button id="resume" variant="outline-success" size="lg">Download Resume</Button>
+        </Row>
+      </Col>
+      <Col lg="5" md="5" className="profPic">
         <img src={imgPotrait} alt="Logo" />
-        </Col>
-     
+      </Col>
     </Container>
   );
 }
