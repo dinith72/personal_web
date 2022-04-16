@@ -12,7 +12,9 @@ export function PageNavbar(props) {
     <Navbar id="navBar" expand="lg">
       <Container>
         <Navbar.Collapse id="basic-navbar-nav">
+
           <Nav className="me-auto">
+
             <Nav.Link className="link left" href="#home">
               Home
             </Nav.Link>
@@ -28,7 +30,9 @@ export function PageNavbar(props) {
             <Nav.Link className="link left" href="#link">
               Contact
             </Nav.Link>
-            
+           
+           </Nav>
+           <Nav>
             <Nav.Link className="link right" href="https://www.linkedin.com/in/dinith-jayabodhi/">
               <FontAwesomeIcon icon={brands('linkedin')} />
             </Nav.Link>
@@ -44,6 +48,8 @@ export function PageNavbar(props) {
             <Nav.Link className="link right" href="https://www.facebook.com/dinith.jayabodhi">
               <FontAwesomeIcon icon={brands('facebook-square')} />
             </Nav.Link>
+         
+           
             
           </Nav>
         </Navbar.Collapse>

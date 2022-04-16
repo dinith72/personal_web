@@ -1,11 +1,12 @@
 import "./App.scss";
 import { PageNavbar } from "./components/PageNavBar";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { HomePage }  from './components/HomePage';
 
 function App() {
   return (
   <div>
     <PageNavbar />
+    <HomePage />
   </div>
   );
 }
