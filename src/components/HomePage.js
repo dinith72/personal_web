@@ -27,6 +27,7 @@ export function HomePage(props) {
         <Row className="text-row">
           <p> Hola , </p>
           <p> I am Dinith Jayabodhi</p>
+          <p> I am </p>
         </Row>
         <Row className="text-row">
           <p className="jobs"> {TEXTS[index % TEXTS.length]} </p>
