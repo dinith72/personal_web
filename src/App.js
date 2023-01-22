@@ -7,8 +7,8 @@ function App() {
   return (
   <div >
     <PageNavbar />
-    <HomePage />
-    <About/>
+    <HomePage id="home"/>
+    <About id="about"/>
   </div>
   );
 }
