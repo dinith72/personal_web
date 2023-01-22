@@ -3,6 +3,7 @@ import React from "react";
 import { Col, Container, Row, Button } from "react-bootstrap";
 import imgPotrait from "../assets/dinith.png";
 import Typewriter from "typewriter-effect";
+import resume from "../assets/cv.pdf";
 
 import "./HomePage.scss";
 
@@ -41,7 +42,13 @@ export function HomePage(props) {
           }} />
         </Row>
         <Row className="text-row">
-         <Button id="resume" variant="outline-success" size="lg">Download Resume</Button>
+         
+          <a href={resume} download="Dinith_Jayabodhi_CV.pdf">
+            <Button id="resume" variant="outline-success" size="lg">
+              Download Resume
+            </Button>
+            </a>
+          
         </Row>
       </Col>
       <Col lg="5" md="5" className="profPic">
