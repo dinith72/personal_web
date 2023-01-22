@@ -2,7 +2,7 @@
 import React from "react";
 import { Col, Container, Row, Button } from "react-bootstrap";
 import imgPotrait from "../assets/dinith.png";
-import Typewriter from "typewriter-effect"
+import Typewriter from "typewriter-effect";
 
 import "./HomePage.scss";
 
@@ -31,8 +31,8 @@ export function HomePage(props) {
           <p> I am Dinith Jayabodhi</p>
           <p> I am </p>
         </Row>
-        <Row className="text-row">
-          {/* <p className="jobs"> {TEXTS[index % TEXTS.length]} </p> */}
+        <Row className="text-row jobs">
+         
           <Typewriter options={{
             strings: TEXTS,
             autoStart: true,

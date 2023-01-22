@@ -38,11 +38,12 @@
   }
 
   .jobs {
-    color: #f9004d;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    animation: mymove 4s infinite;
-    position: relative;
+    span {
+      color: #e5df34;
+      font-size: 2.5rem;
+      font-weight: 700;
+      font-family: cursive;
+    }
   }
 
   @keyframes mymove {
