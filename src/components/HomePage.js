@@ -28,9 +28,10 @@ export function HomePage(props) {
     <Container id="homePg">
       <Col lg="5" md="5" className="animeTxt">
         <Row className="text-row">
-          <p> Hola , </p>
-          <p> I am Dinith Jayabodhi</p>
-          <p> I am </p>
+          <p className="info"> Hola , </p>
+          <p className="info"> I am </p> 
+          <p  id="name"> Dinith Jayabodhi</p>
+          <p className="info"> I am </p>
         </Row>
         <Row className="text-row jobs">
          

@@ -7,7 +7,7 @@ export function About(props) {
  
    
     return (
-      <Container id="homePg">
+      <Container id="about">
         <Col lg="6" md="12" className="animeTxt">
         </Col>
         <Col lg="6" md="12" className="animeTxt">
