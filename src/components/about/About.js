@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 // import MyProjects from './MyProjects';
 import Bio from "./Bio";
-import Cards from "./cards";
+import SoCard from "./socard";
 import "./About.scss";
 
 export function About(props) {
@@ -14,7 +14,7 @@ export function About(props) {
           <Bio></Bio>
         </Col>
         <Col lg="6" md="6" className="cards">
-          <Cards />
+          <SoCard />
         </Col>
       </Row>
     </Container>
