@@ -4,7 +4,7 @@ import soImage from "../../assets/stack-overflow.png";
 import axios from 'axios';
 import "./card.scss";
 
-const baseURL = 'https://api.stackexchange.com//2.3/users/8313114?order=asc&sort=reputation&site=stackoverflow&filter=!9aV0efSK4'
+const baseURL = 'https://api.stackexchange.com/2.3/users/8313114?key=U4DMV*8nvpm3EOpvf69Rxw((&site=stackoverflow&order=desc&sort=reputation&filter=!9aK1GUJ.d'
 export function SoCard(prop) {
 
   const [soData, setSoData] = React.useState(null);
@@ -12,7 +12,7 @@ export function SoCard(prop) {
   React.useEffect(() => {
     const config = {
       headers:{
-        Accept: 'text/plain'
+        Accept: 'application/json'
       }
     };
     axios
@@ -21,16 +21,7 @@ export function SoCard(prop) {
       setSoData(response.data.items[0]);
     });
   }, []);
-  // const soData = {
-  //   link: "https://stackoverflow.com/users/8313114/dinith-jayabodhi",
-  //   display_name: "dinith jayabodhi",
-  //   reputation: 200,
-  //   badge_counts: {
-  //     bronze: 19,
-  //     silver: 8,
-  //     gold: 2,
-  //   },
-  // };
+ 
   if (!soData) 
     return null;
 
@@ -38,7 +29,7 @@ export function SoCard(prop) {
    
     <Container>
       <a href={soData.link}>
-        <div class="so-card">
+        <div class="so-card"  >
           <div class="so-logo">
             <img src={soImage} alt=""></img>
           </div>
