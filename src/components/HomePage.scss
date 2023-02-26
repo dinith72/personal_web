@@ -10,6 +10,15 @@
 
   height: 100vh;
 
+  #name {
+    color: white;
+    font-weight: 100;
+    font-stretch: expanded;
+    font-family: "Castellar";
+  }
+
+  
+
   .animeTxt {
     text-align: center;
     align-items: center;
@@ -20,6 +29,11 @@
       flex-direction: row;
       justify-content: center;
       margin-top: 2rem;
+    }
+
+    .info {
+      font-family: 'Bauhaus 93', sans-serif;
+      font-weight: 200;
     }
     #resume {
       margin-top: 3rem;
@@ -38,11 +52,12 @@
   }
 
   .jobs {
-    color: #f9004d;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    animation: mymove 4s infinite;
-    position: relative;
+    span {
+      color: rgba(83,167,46,255);
+      font-size: 2.5rem;
+      font-weight: 700;
+      font-family: cursive;
+    }
   }
 
   @keyframes mymove {
