@@ -5,10 +5,10 @@ import About from "./components/about/About";
 
 function App() {
   return (
-  <div>
+  <div >
     <PageNavbar />
-    <HomePage />
-    <About/>
+    <HomePage id="home"/>
+    <About id="about"/>
   </div>
   );
 }

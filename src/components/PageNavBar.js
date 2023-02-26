@@ -8,6 +8,13 @@ import {  brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 import "./PageNavBar.scss";
 
 export function PageNavbar(props) {
+
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: "smooth"
+    })
+  }
   return (
     <Navbar id="navBar" expand="lg">
       <Container>
@@ -18,7 +25,7 @@ export function PageNavbar(props) {
             <Nav.Link className="link left" href="#home">
               Home
             </Nav.Link>
-            <Nav.Link className="link left" href="#link">
+            <Nav.Link className="link left" href="#about">
               About
             </Nav.Link>
             <Nav.Link className="link left" href="#link">
