@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container } from "react-bootstrap";
 import soImage from "../../assets/stack-overflow.webp";
 import axios from 'axios';

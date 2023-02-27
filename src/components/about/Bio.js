@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import bio_me from "../../assets/bio_me.webp";
 import bio_cert1 from "../../assets/bio_cert1.webp";
