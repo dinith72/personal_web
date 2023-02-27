@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Col, Container, Row, Button } from "react-bootstrap";
-import imgPotrait from "../assets/dinith.png";
+import imgPotrait from "../assets/dinith.webp";
 import Typewriter from "typewriter-effect";
 import resume from "../assets/cv.pdf";
 

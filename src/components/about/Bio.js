@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import bio_me from "../../assets/bio_me.jpg";
-import bio_cert1 from "../../assets/bio_cert1.png";
-import bio_cert2 from "../../assets/bio_cert2.png";
+import bio_me from "../../assets/bio_me.webp";
+import bio_cert1 from "../../assets/bio_cert1.webp";
+import bio_cert2 from "../../assets/bio_cert2.webp";
 import "./Bio.scss";
 
 export function Bio(params) {
