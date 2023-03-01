@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container , Row , Col} from "react-bootstrap";
 import soImage from "../../assets/stack-overflow.webp";
 import axios from 'axios';
 import "./card.scss";
@@ -30,15 +30,22 @@ export function SoCard(prop) {
     <Container>
       <a href={soData.link}>
         <div class="so-card"  >
-          <div class="so-logo">
+          <Row>
+            <Col lg="4">
+            <div class="so-logo">
             <img src={soImage} alt=""></img>
           </div>
-          <div class="so-header">
-            <h4 class="so-display-name">{soData.display_name}</h4>
+            </Col>
+            <Col lg="4">
+            <div class="so-header">
+            <img src={soData.profile_image} alt=""></img>
+            {/* <h4 class="so-display-name">{.display_name}</h4> */}
           </div>
+            </Col>
+          </Row>
           <div class="so-content">
             <p class="so-reputation">{soData.reputation}</p>
-            <small class="so-reputation-label">Stackoverflow reputation</small>
+            <small class="so-reputation-label">reputation</small>
           </div>
 
           <div class="so-footer">
