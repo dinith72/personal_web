@@ -5,6 +5,7 @@ import Bio from "./Bio";
 import SoCard from "./socard";
 import "./About.scss";
 import GhCard from "./ghCard";
+import Lccard from "./lccard";
 
 export function About(props) {
   return (
@@ -20,6 +21,11 @@ export function About(props) {
             </Col>
             <Col lg="6">
               <GhCard />
+            </Col>
+          </Row>
+          <Row>
+          <Col id="leetcode" className="cards" lg="6">
+              <Lccard />
             </Col>
           </Row>
           

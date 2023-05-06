@@ -5,3 +5,11 @@
     flex-wrap: wrap;
     align-content: center;
 }
+
+#leetcode{
+    padding-top: 2rem;
+}
+
+.row :nth-child(2){
+    justify-content: center;
+}

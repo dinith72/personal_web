@@ -28,15 +28,15 @@ export function PageNavbar(props) {
             <Nav.Link className="link left" href="#about">
               About
             </Nav.Link>
-            <Nav.Link className="link left" href="#link">
-              Blog
+            <Nav.Link className="link left" href="#timeline">
+              Timeline
             </Nav.Link>
-            <Nav.Link className="link left" href="#link">
+            {/* <Nav.Link className="link left" href="#link">
               Skills
             </Nav.Link>
             <Nav.Link className="link left" href="#link">
               Contact
-            </Nav.Link>
+            </Nav.Link> */}
            
            </Nav>
            <Nav>
