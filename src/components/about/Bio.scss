@@ -22,5 +22,13 @@
     .certImg{
         height: 10rem;
     }
+
+    .certificates{
+        justify-content: space-between;
+    }
+
+    .certificates:nth-child(2){
+        justify-content: center;
+    }
 }
 
