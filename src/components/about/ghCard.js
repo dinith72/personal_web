@@ -24,10 +24,10 @@ export function GhCard(prop) {
   return (
     <Container>
       <a href={ghData.html_url}>
-        <div class="gh-card">
+        <div className="gh-card">
           <Row>
             <Col lg="4">
-              <div class="gh-logo">
+              <div className="gh-logo">
                 <img src={ghImage} alt=""></img>
               </div>
             </Col>

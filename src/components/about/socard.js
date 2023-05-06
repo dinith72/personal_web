@@ -29,38 +29,38 @@ export function SoCard(prop) {
    
     <Container>
       <a href={soData.link}>
-        <div class="so-card"  >
+        <div className="so-card"  >
           <Row>
             <Col lg="4">
-            <div class="so-logo">
+            <div className="so-logo">
             <img src={soImage} alt=""></img>
           </div>
             </Col>
             <Col lg="8">
-            <div class="so-header">
+            <div className="so-header">
               <h3 className="so-display-name"> Stack Overflow</h3>
           </div>
             </Col>
           </Row>
-          <div class="so-content">
-            <p class="so-reputation">{soData.reputation}</p>
-            <small class="so-reputation-label">reputation</small>
+          <div className="so-content">
+            <p className="so-reputation">{soData.reputation}</p>
+            <small className="so-reputation-label">reputation</small>
           </div>
 
-          <div class="so-footer">
-            <span class="so-badge-wrapper">
-              <span class="so-badge so-badge-gold"></span>
-              <span class="so-badge-count">{soData.badge_counts.gold}</span>
+          <div className="so-footer">
+            <span className="so-badge-wrapper">
+              <span className="so-badge so-badge-gold"></span>
+              <span className="so-badge-count">{soData.badge_counts.gold}</span>
             </span>
 
-            <span class="so-badge-wrapper">
-              <span class="so-badge so-badge-silver"></span>
-              <span class="so-badge-count">{soData.badge_counts.silver}</span>
+            <span className="so-badge-wrapper">
+              <span className="so-badge so-badge-silver"></span>
+              <span className="so-badge-count">{soData.badge_counts.silver}</span>
             </span>
 
-            <span class="so-badge-wrapper">
-              <span class="so-badge so-badge-bronze"></span>
-              <span class="so-badge-count">{soData.badge_counts.bronze}</span>
+            <span className="so-badge-wrapper">
+              <span className="so-badge so-badge-bronze"></span>
+              <span className="so-badge-count">{soData.badge_counts.bronze}</span>
             </span>
           </div>
         </div>
