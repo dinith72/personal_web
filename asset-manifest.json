@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.385165f2.css",
-    "main.js": "/static/js/main.5281dcc8.js",
+    "main.css": "/static/css/main.a35375fa.css",
+    "main.js": "/static/js/main.660e459e.js",
     "static/media/cv.pdf": "/static/media/cv.cfc4e4f2b4712a7f52ce.pdf",
     "static/media/dinith.webp": "/static/media/dinith.d1fa534bf1d3040110e7.webp",
+    "static/media/certification-icon.webp": "/static/media/certification-icon.1f749f1c28af0756c8fa.webp",
     "static/media/bio_me.webp": "/static/media/bio_me.3d86d7ded4cee5cde085.webp",
-    "static/media/bio_cert1.webp": "/static/media/bio_cert1.a1e2da65952f8b48ffb9.webp",
-    "static/media/bio_cert2.webp": "/static/media/bio_cert2.bcbf3a2046b487c36cfd.webp",
+    "static/media/az_fund.webp": "/static/media/az_fund.a1e2da65952f8b48ffb9.webp",
+    "static/media/az_cosmos.webp": "/static/media/az_cosmos.bcbf3a2046b487c36cfd.webp",
     "static/media/bg2.webp": "/static/media/bg2.7ddebd11bbd9bd93c925.webp",
+    "static/media/az_data_fund.webp": "/static/media/az_data_fund.13afee015893acc13694.webp",
     "static/media/stack-overflow.webp": "/static/media/stack-overflow.814a71b34a4bf12e5450.webp",
+    "static/media/leetcode.webp": "/static/media/leetcode.a46f0b45175ffce7261d.webp",
     "static/media/gh-logo.webp": "/static/media/gh-logo.a9cac8638a9e0dffa00b.webp",
     "index.html": "/index.html",
-    "main.385165f2.css.map": "/static/css/main.385165f2.css.map",
-    "main.5281dcc8.js.map": "/static/js/main.5281dcc8.js.map"
+    "main.a35375fa.css.map": "/static/css/main.a35375fa.css.map",
+    "main.660e459e.js.map": "/static/js/main.660e459e.js.map"
   },
   "entrypoints": [
-    "static/css/main.385165f2.css",
-    "static/js/main.5281dcc8.js"
+    "static/css/main.a35375fa.css",
+    "static/js/main.660e459e.js"
   ]
 }
