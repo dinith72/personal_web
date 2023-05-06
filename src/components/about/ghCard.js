@@ -4,7 +4,7 @@ import ghImage from "../../assets/gh-logo.webp";
 import axios from "axios";
 import "./ghCard.scss";
 
-const baseURL ="https://api.github.com/users/dinith95";
+const baseURL = "https://api.github.com/users/dinith95";
 export function GhCard(prop) {
   const [ghData, setGhData] = React.useState(null);
 
@@ -31,16 +31,14 @@ export function GhCard(prop) {
                 <img src={ghImage} alt=""></img>
               </div>
             </Col>
-            <Col lg="4">
-              <div class="header">
-                <img src={ghData.avatar_url} alt=""></img>
-              </div>
+            <Col lg="8">
+              <h3 className="gh-display-name"> Github</h3>
             </Col>
           </Row>
 
           <Row id="gh-content">
-            <p >{ghData.public_repos}</p>
-            <small >repos</small>
+            <p>{ghData.public_repos}</p>
+            <small>repos</small>
           </Row>
 
           <Row id="follow">

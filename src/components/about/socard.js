@@ -2,7 +2,7 @@ import React from "react";
 import { Container , Row , Col} from "react-bootstrap";
 import soImage from "../../assets/stack-overflow.webp";
 import axios from 'axios';
-import "./card.scss";
+import "./socard.scss";
 
 const baseURL = 'https://api.stackexchange.com/2.3/users/8313114?key=U4DMV*8nvpm3EOpvf69Rxw((&site=stackoverflow&order=desc&sort=reputation&filter=!9aK1GUJ.d'
 export function SoCard(prop) {
@@ -36,10 +36,9 @@ export function SoCard(prop) {
             <img src={soImage} alt=""></img>
           </div>
             </Col>
-            <Col lg="4">
+            <Col lg="8">
             <div class="so-header">
-            <img src={soData.profile_image} alt=""></img>
-            {/* <h4 class="so-display-name">{.display_name}</h4> */}
+              <h3 className="so-display-name"> Stack Overflow</h3>
           </div>
             </Col>
           </Row>
