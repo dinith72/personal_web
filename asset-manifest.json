@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd04bdc0.css",
-    "main.js": "/static/js/main.9c1eec54.js",
+    "main.css": "/static/css/main.385165f2.css",
+    "main.js": "/static/js/main.5281dcc8.js",
     "static/media/cv.pdf": "/static/media/cv.cfc4e4f2b4712a7f52ce.pdf",
     "static/media/dinith.webp": "/static/media/dinith.d1fa534bf1d3040110e7.webp",
     "static/media/bio_me.webp": "/static/media/bio_me.3d86d7ded4cee5cde085.webp",
@@ -9,12 +9,13 @@
     "static/media/bio_cert2.webp": "/static/media/bio_cert2.bcbf3a2046b487c36cfd.webp",
     "static/media/bg2.webp": "/static/media/bg2.7ddebd11bbd9bd93c925.webp",
     "static/media/stack-overflow.webp": "/static/media/stack-overflow.814a71b34a4bf12e5450.webp",
+    "static/media/gh-logo.webp": "/static/media/gh-logo.a9cac8638a9e0dffa00b.webp",
     "index.html": "/index.html",
-    "main.fd04bdc0.css.map": "/static/css/main.fd04bdc0.css.map",
-    "main.9c1eec54.js.map": "/static/js/main.9c1eec54.js.map"
+    "main.385165f2.css.map": "/static/css/main.385165f2.css.map",
+    "main.5281dcc8.js.map": "/static/js/main.5281dcc8.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd04bdc0.css",
-    "static/js/main.9c1eec54.js"
+    "static/css/main.385165f2.css",
+    "static/js/main.5281dcc8.js"
   ]
 }
