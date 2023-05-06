@@ -23,7 +23,7 @@ export function GhCard(prop) {
 
   return (
     <Container>
-      <a href={ghData.link}>
+      <a href={ghData.html_url}>
         <div class="gh-card">
           <Row>
             <Col lg="4">
