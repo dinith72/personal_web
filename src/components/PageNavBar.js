@@ -48,7 +48,7 @@ export function PageNavbar(props) {
               <FontAwesomeIcon icon={brands('stack-overflow')} />
             </Nav.Link>
 
-            <Nav.Link className="link right" href="https://github.com/dinith72">
+            <Nav.Link className="link right" href="https://github.com/dinith95">
               <FontAwesomeIcon icon={brands('github-square')} />
             </Nav.Link>
 

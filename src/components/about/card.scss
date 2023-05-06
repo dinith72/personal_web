@@ -11,6 +11,18 @@ a{
   display: block;
   display: flex;
   flex-direction: column;
+  min-width: 300px;
+
+  .row{
+    justify-content: space-between;
+  }
+
+  .so-header img{
+    padding: 10%;
+    border-radius: 50%;
+    max-width: 110%;
+    padding-top: 20%;
+  }
 }
 
 .so-display-name {
