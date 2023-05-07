@@ -1,0 +1,16 @@
+.data-input{
+    background-color: #34363a;
+    margin: 0.75rem;
+    border-block: 2px;
+    border-top: 2px;
+    border-color: white;
+}
+
+.data-input::placeholder{
+    color: white;
+}
+
+.data-input:focus{
+    background-color: #141516;
+    color: white;
+}
