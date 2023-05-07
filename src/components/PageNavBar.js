@@ -23,20 +23,20 @@ export function PageNavbar(props) {
           <Nav className="me-auto">
 
             <Nav.Link className="link left" href="#home">
-              Home
+              Me
             </Nav.Link>
             <Nav.Link className="link left" href="#about">
-              About
+              Who Am I?
             </Nav.Link>
             <Nav.Link className="link left" href="#timeline">
-              Timeline
+              My Journey
             </Nav.Link>
             {/* <Nav.Link className="link left" href="#link">
               Skills
-            </Nav.Link>
-            <Nav.Link className="link left" href="#link">
-              Contact
             </Nav.Link> */}
+            <Nav.Link className="link left" href="#link">
+              Lets Chat
+            </Nav.Link>
            
            </Nav>
            <Nav>
