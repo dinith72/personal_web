@@ -13,7 +13,7 @@ export function HomePage(props) {
     "Fullstack Developer",
     "DevOps Engineer",
     "Cloud Engineer",
-    "Blockchain  Enthusiast",
+    "AI  Enthusiast",
   ];
   // const [index, setIndex] = React.useState(0);
 
